@@ -29,30 +29,19 @@ nir = band5.read(1).astype('float64')
 
 def normalize(array):
     """
-    Create a networkx graph from OSM database within the spatial \
-    boundaries of user entered region name.
+    Normalize the interval of the elements of the array between 0 and 1
+    
+    
     Parameters
     ----------
-    regionName: string
-        name of the area where the road network data is obtained
-    networkType: string
-        what type of street network to get
-    whichResult: integer
-        resulting number that returns polygon data from the
-        query of OpenStreetMap database
+    array: type(array) size:999x999 cells include pixel reflectance values
+    float id
+    
+    
     Returns
     -------
-    G: networkx multidigraph
-        road network of region
-    Parameters
-    ----------
-    array : TYPE
-        DESCRIPTION.
-
-    Returns
-    -------
-    TYPE
-        DESCRIPTION.
+    norm_array : type(array) size:999x999 cells include pixel reflectance values
+    as normalized values
 
     """
     array_min, array_max = array.min(), array.max()
