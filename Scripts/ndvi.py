@@ -18,8 +18,7 @@ band2 = rasterio.open('blue.img')           # Blue Band
 band3 = rasterio.open('green.img')          # Green Band
 band4 = rasterio.open('red.img')            # Red Band
 band5 = rasterio.open('near_infrared.img')  # Near Infrared Band
-band6 = rasterio.open('swir_1.img')
-band7 = rasterio.open('swir_2.img')
+
 
 # False Color Image
 # -----------------------------------------------------------------------------
