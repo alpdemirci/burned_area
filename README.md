@@ -16,4 +16,4 @@ Landsat 8 images dated 23/08/2019 were used within the scope of the project. Fou
 green, blue, near-infrared) were used in order to show true color, false color and NDVI images.
 Images were resampled and subsetted. Code explanations were made in more detail in the script file.
 
-
+Script and test images must be on the same folder!
