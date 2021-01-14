@@ -14,10 +14,10 @@ import numpy as np
 
 # Input data
 
-band2 = rasterio.open('blue.img')           # Blue Band
-band3 = rasterio.open('green.img')          # Green Band
-band4 = rasterio.open('red.img')            # Red Band
-band5 = rasterio.open('near_infrared.img')  # Near Infrared Band
+band2 = rasterio.open('blue.tif')           # Blue Band
+band3 = rasterio.open('green.tif')          # Green Band
+band4 = rasterio.open('red.tif')            # Red Band
+band5 = rasterio.open('near_infrared.tif')  # Near Infrared Band
 
 
 # False Color Image
